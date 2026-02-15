@@ -1,0 +1,21 @@
+{
+  "name": "health_check",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "system-health",
+    "health-check"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Model Context Protocol server for system health monitoring",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  }
+}
